@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incluir Ingredientes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Adicionar Ingrediente</h1>
+    <div class="form-container">
+        <form id="ingredient-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="calories">Calorias (kcal):</label>
+            <input type="number" id="calories" name="calories" required><br><br>
+
+            <label for="netCarbs">Carboidratos Líquidos (g):</label>
+            <input type="number" id="netCarbs" name="netCarbs" required><br><br>
+
+            <label for="carbs">Carboidratos (g):</label>
+            <input type="number" id="carbs" name="carbs" required><br><br>
+
+            <label for="proteins">Proteínas (g):</label>
+            <input type="number" id="proteins" name="proteins" required><br><br>
+
+            <label for="totalFats">Gorduras Totais (g):</label>
+            <input type="number" id="totalFats" name="totalFats" required><br><br>
+
+            <label for="saturatedFats">Gorduras Saturadas (g):</label>
+            <input type="number" id="saturatedFats" name="saturatedFats" required><br><br>
+
+            <label for="fiber">Fibra Alimentar (g):</label>
+            <input type="number" id="fiber" name="fiber" required><br><br>
+
+            <label for="sodium">Sódio (mg):</label>
+            <input type="number" id="sodium" name="sodium" required><br><br>
+
+            <button type="submit">Adicionar Ingrediente</button>
+        </form>
+    </div>
+    <button id="logout-button">Logout</button>
+    <button onclick="window.location.href='selection.html'">Ir para Seleção de Ingredientes</button>
+
+    <script src="inclusion.js"></script>
+</body>
+</html>
